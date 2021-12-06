@@ -6,8 +6,10 @@ Install the dependencies using following command
 
 #### to do list :-
 
-1. setup a 
-2. install b
+1. setup a from [here](google.com)
+2. ~~install b~~
+
+
 
 
 
