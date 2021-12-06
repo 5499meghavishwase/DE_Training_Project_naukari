@@ -10,6 +10,13 @@ Install the dependencies using following command
 2. ~~install b~~
 
 
+### Architect
+
+![](images\Capture.PNG)
+
+
+
+
 
 
 
