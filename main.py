@@ -25,6 +25,9 @@ driver=webdriver.Chrome(executable_path=path, options=chrome_options)
 #driver.implicitly_wait(5)
 #@app.route("/")
 
+import logging 
+
+
 def task_scrape() : 
     jobs={"roles":[],
         "companies":[],
@@ -68,6 +71,9 @@ def task_scrape() :
     df=df.dropna()
     return df.to_csv()
 
+def save_log():
+ # this module will help in saving the logs to file
+ print("save log")
 
 #Method to upload csv file to Bucket
 def upload_blob(bucket_name, source_file_name, destination_blob_name):
