@@ -25,10 +25,9 @@ driver=webdriver.Chrome(executable_path=path, options=chrome_options)
 #driver.implicitly_wait(5)
 #@app.route("/")
 
-import logging 
-
 def image_upload():
    print("helo world")
+   ##3 ctula code 
 
 def task_scrape() : 
     jobs={"roles":[],
