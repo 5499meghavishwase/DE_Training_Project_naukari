@@ -27,6 +27,8 @@ driver=webdriver.Chrome(executable_path=path, options=chrome_options)
 
 import logging 
 
+def image_upload():
+   print("helo world")
 
 def task_scrape() : 
     jobs={"roles":[],
